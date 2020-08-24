@@ -1,0 +1,160 @@
+.body{
+    background: ivory;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    float: inherit;
+}
+.box{
+    margin:0px auto;
+    width:10px;
+    height:auto;
+    background: #F5EFEF;
+    padding:05px;
+}
+
+.logo {
+    float: left;
+padding-left: 50px;
+}
+
+/* Style the header */
+.header {
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0px;
+   width: auto;
+    height: 100px;
+
+}
+
+
+
+/* Style the top navigation bar */
+.topnav {
+
+    background-color: cornsilk;
+    font-size: 20px;
+    padding: 30px;
+    border-bottom-style: solid;
+    border-color: lightseagreen;
+    width:auto;
+    height: 20px;
+
+
+
+}
+
+/* Style the topnav links */
+.topnav a {
+    float:right;
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    color: lightseagreen;
+}
+
+
+/* گالری */
+
+div.gallery{
+    margin: 30px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 300px;
+
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+div.gallery:hover {
+    border: 2px solid  ;
+    border-color: crimson;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+margin: 10px;
+}
+
+
+.video {
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+
+.p{
+   box-shadow: brown;
+width: 800px;
+height:autopx;
+    background-color: gold;
+    border-color: lightseagreen;
+}
+
+/* Style the footer*/
+.footer {
+    background-color: lightseagreen;
+    padding: 10px;
+    text-align: center;
+    border-top: solid;
+    border-color: darkblue;
+    height: 100px;
+}
+
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+
+
+
+
+
+    }
+    /* On screens that are 992px wide or less, the background color is blue */
+    @media screen and (max-width: 992px) {
+        body {
+            background-color: blue;
+            color: black;
+        }
+    }
+
+    /* On screens that are 600px wide or less, the background color is olive */
+    @media screen and (max-width: 600px) {
+        body {
+            background-color: cornsilk;
+            color: black;
+        }
+    }
+
+}
